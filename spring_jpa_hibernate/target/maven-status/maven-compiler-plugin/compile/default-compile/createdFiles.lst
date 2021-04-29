@@ -1,0 +1,15 @@
+com\aston\java\spring\orm\domaines\Adresse.class
+com\aston\java\spring\orm\test\UniverselTest.class
+com\aston\java\spring\orm\domaines\Client.class
+com\aston\java\spring\orm\services\ICompteService.class
+com\aston\java\spring\orm\hbm\SpringHbmConfig.class
+com\aston\java\spring\orm\AppConfig.class
+com\aston\java\spring\orm\services\impl\CompteService.class
+com\aston\java\spring\orm\domaines\Compte.class
+com\aston\java\spring\orm\methods\Methods.class
+com\aston\java\spring\orm\repositories\ICompteRepository.class
+com\aston\java\spring\orm\domaines\Agence.class
+com\aston\java\spring\orm\repositories\impl\CompteRepository.class
+com\aston\java\spring\orm\domaines\TypeCompte.class
+com\aston\java\spring\orm\domaines\Banque.class
+com\aston\java\spring\orm\domaines\Type.class
