@@ -45,7 +45,7 @@ public class Agence {
 	@JoinColumn(name = "address_id", referencedColumnName = "id")
 	private Adresse adresse;
 	
-	@ManyToOne(fetch = FetchType.LAZY)
+	@ManyToOne(fetch = FetchType.EAGER,cascade=CascadeType.ALL)
 	private Banque banque;
 	
 	@ManyToMany(fetch = FetchType.LAZY)

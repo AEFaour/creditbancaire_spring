@@ -64,7 +64,7 @@ public class Client {
 	private List<Compte> comptes = new ArrayList<>();
 	
 	
-	@ManyToOne(fetch = FetchType.LAZY)
+	@ManyToOne(fetch = FetchType.EAGER,cascade=CascadeType.ALL)
 	private Adresse adresse;
 	
 	@ManyToMany

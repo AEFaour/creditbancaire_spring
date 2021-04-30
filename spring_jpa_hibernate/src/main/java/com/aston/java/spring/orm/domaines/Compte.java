@@ -51,7 +51,7 @@ public class Compte {
 	//@JoinColumn(nullable = false)
 	private Agence agence;
 	
-	@ManyToOne(fetch = FetchType.LAZY)
+	@ManyToOne(fetch = FetchType.EAGER,cascade=CascadeType.ALL)
 	private Type type;
 	
 
